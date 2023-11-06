@@ -61,15 +61,7 @@ def finish():
 def update():
     game_world.update()
     game_world.handle_collisions()
-    # for ball in balls.copy():
-    #     if game_world.collide(boy, ball):
-    #         print('COLLIDE boy:ball')
-    #         #충돌처리
-    #         #볼 삭제
-    #         game_world.remove_object(ball)
-    #         balls.remove(ball)
-    #         #볼카운트 +1
-    #         boy.ball_count += 1
+
 
 def draw():
     clear_canvas()

@@ -64,9 +64,9 @@ def add_collision_pair(group, a, b):
     if group not in collision_pairs:
         print(f'new group {group} added')
         collision_pairs[group] = [ [], [] ]
-    if a:   #a가 있을떄 == a가 non이 아님
+    if a:   #a가 있을떄 == a가 none이 아님
         collision_pairs[group][0].append(a)
-    if b:   #b가 있을때 == ㅠ가 non이 아님
+    if b:   #b가 있을때 == ㅠ가 none이 아님
         collision_pairs[group][1].append(b)
 
 

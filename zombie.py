@@ -65,6 +65,6 @@ class Zombie:
         if group == 'ball:zombie':
             self.life -= 1
             self.y -= 50
-            if self.life <= 0:
+            if self.life < 1:
                 pass
                 #game_world.remove_object(self)
